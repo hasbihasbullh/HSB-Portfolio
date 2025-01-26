@@ -104,7 +104,7 @@ export default function Projects() {
         <div className="mt-6 sm:mt-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 text-zinc-900 dark:text-zinc-50 text-center">See other project</h2>
           <div className="flex justify-center">
-            <Button variant="outline">Load More</Button>
+            <Button>Load More</Button>
           </div>
         </div>
       </div>

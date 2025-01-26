@@ -6,7 +6,7 @@ import { gsap } from "gsap";
 import { useEffect, useRef } from "react";
 import { Github, Linkedin, Instagram } from "lucide-react"; // Import ikon sosial media
 
-export default function HeroSection() {
+export default function Hero() {
   const currentDate = new Date();
   const options: Intl.DateTimeFormatOptions = { month: "short", day: "numeric" };
   const formattedDate = currentDate.toLocaleString("id-ID", options);

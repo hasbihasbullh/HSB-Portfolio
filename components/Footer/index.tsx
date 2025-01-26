@@ -1,22 +1,22 @@
 "use client";
 
-import { Github, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Github, Linkedin, Instagram } from "lucide-react";
 
 export default function Footer() {
   const socialLinks = [
     {
       icon: <Github className="w-5 h-5" />,
-      href: "https://github.com",
+      href: "https://github.com/hasbihasbullh",
       label: "GitHub",
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/m-hasbi-hasbullah-1a152b340/",
       label: "LinkedIn",
     },
     {
       icon: <Instagram className="w-5 h-5" />,
-      href: "https://instagram.com",
+      href: "https://instagram.com/hasbihasbullh_",
       label: "Instagram",
     },
   ];
