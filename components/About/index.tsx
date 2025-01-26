@@ -55,9 +55,9 @@ export default function About() {
   return (
     <section ref={sectionRef} id="about" className="px-4 sm:px-8 py-10 lg:py-10 sm:py-20 max-w-7xl mx-auto">
       <div className="max-w-7xl mx-auto">
-        <div className="gap-12 lg:gap-24">
+        <div className="mb-12 sm:mb-20">
           <div>
-            <h2 ref={headingRef} className="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight mb-6 text-zinc-900 dark:text-zinc-50">
+            <h2 ref={headingRef} className="text-3xl sm:text-4xl lg:text-6xl font-extrabold tracking-tight mb-6 text-zinc-900 dark:text-zinc-50">
               About Me
             </h2>
             <p ref={contentRef} className="text-zinc-600 dark:text-zinc-400 text-lg sm:text-xl leading-relaxed mb-8">
