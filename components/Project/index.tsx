@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -75,7 +76,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <Card key={index} className="project-card hover:shadow-lg transition-all">
               <CardHeader>
-                <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded-t-lg" />
+                <Image src={project.image} alt={project.title} width={500} height={200} className="w-full h-48 object-cover rounded-t-lg" />
               </CardHeader>
               <CardContent>
                 <CardTitle className="text-lg font-bold mb-2">{project.title}</CardTitle>

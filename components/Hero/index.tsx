@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { FileUser } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { gsap } from "gsap";
@@ -66,7 +67,7 @@ export default function Hero() {
 
       {/* Bagian Gambar */}
       <div ref={imageRef} className="relative mt-8 lg:mt-0">
-        <img src="/me.webp" alt="Foto Profil M Hasbi Hasbullah" className="w-full sm:w-[400px] h-[300px] sm:h-[500px] object-cover mx-auto rounded-lg shadow-lg" />
+        <Image src="/me.webp" alt="Foto Profil M Hasbi Hasbullah" width={400} height={500} className="w-full sm:w-[400px] h-[300px] sm:h-[500px] object-cover mx-auto rounded-lg shadow-lg" />
         <div className="absolute bottom-0 right-0 bg-zinc-900 dark:bg-zinc-50 text-zinc-50 dark:text-zinc-900 p-4 sm:p-6 rounded-lg">
           <p className="text-xs sm:text-sm opacity-70">TODAY DATE</p>
           <p className="text-3xl sm:text-5xl font-bold mt-2">{formattedDate}</p>
