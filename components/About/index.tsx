@@ -46,12 +46,6 @@ export default function About() {
     });
   }, []);
 
-  const addToRefs = (el) => {
-    if (el && !statsRef.current.includes(el)) {
-      statsRef.current.push(el);
-    }
-  };
-
   return (
     <section ref={sectionRef} id="about" className="px-4 sm:px-8 py-10 lg:py-10 sm:py-20 max-w-7xl mx-auto">
       <div className="max-w-7xl mx-auto">
@@ -66,20 +60,20 @@ export default function About() {
               I am not just a coder but also a creative thinker, a problem solver, and a lifelong learner always eager to explore new technologies.
             </p>
             <div className="grid sm:grid-cols-4 gap-6">
-              <div ref={addToRefs} className="bg-zinc-100 dark:bg-zinc-900 p-6 rounded-lg">
-                <p className="font-bold text-3xl mb-2">5+</p>
+              <div className="bg-zinc-100 dark:bg-zinc-900 p-6 rounded-lg">
+                <p className="font-bold text-3xl mb-2">1</p>
                 <p className="text-zinc-600">Years of Experience</p>
               </div>
-              <div ref={addToRefs} className="bg-zinc-100 dark:bg-zinc-900 p-6 rounded-lg">
-                <p className="font-bold text-3xl mb-2">50+</p>
+              <div className="bg-zinc-100 dark:bg-zinc-900 p-6 rounded-lg">
+                <p className="font-bold text-3xl mb-2">1</p>
                 <p className="text-zinc-600">Projects Completed</p>
               </div>
-              <div ref={addToRefs} className="bg-zinc-100 dark:bg-zinc-900 p-6 rounded-lg">
-                <p className="font-bold text-3xl mb-2">50+</p>
+              <div className="bg-zinc-100 dark:bg-zinc-900 p-6 rounded-lg">
+                <p className="font-bold text-3xl mb-2">1</p>
                 <p className="text-zinc-600">Code Commits</p>
               </div>
-              <div ref={addToRefs} className="bg-zinc-100 dark:bg-zinc-900 p-6 rounded-lg">
-                <p className="font-bold text-3xl mb-2">50+</p>
+              <div className="bg-zinc-100 dark:bg-zinc-900 p-6 rounded-lg">
+                <p className="font-bold text-3xl mb-2">99</p>
                 <p className="text-zinc-600">Immortal Highest Rank</p>
               </div>
             </div>
