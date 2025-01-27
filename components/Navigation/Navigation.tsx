@@ -39,12 +39,7 @@ export default function Navigation() {
   return (
     <nav className="flex justify-between items-center px-4 sm:px-8 py-6 max-w-7xl mx-auto sticky top-0 z-50">
       <div className="flex items-center gap-2">
-        <span
-          className="font-bold text-xl
-"
-        >
-          HSB-DEV
-        </span>
+        <span className="font-bold text-xl">HSB-DEV</span>
       </div>
 
       {/* Mobile Menu Button */}
